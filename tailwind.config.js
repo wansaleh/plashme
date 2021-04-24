@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Clash Grotesk', ...defaultTheme.fontFamily.sans]
+        sans: ['Satoshi', ...defaultTheme.fontFamily.sans]
       }
     }
   },
