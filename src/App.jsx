@@ -10,10 +10,15 @@ export default function App() {
   }, 1000);
 
   return (
-    <div className="absolute inset-0 flex items-center justify-center leading-none text-white">
+    <div className="flex absolute inset-0 justify-center items-center leading-none text-white">
       <div style={{ textShadow: '0 0 40px rgba(0,0,0,0.5)' }}>
-        <div className="text-[12vw] font-bold">{format(date, 'hh:mm a')}</div>
-        <div className="mr-4 -mt-0 text-[3vw] text-right">
+        <div className="text-[18vw] font-bold">{format(date, 'hh:mm a')}</div>
+        <div
+          className="mr-4 -mt-0 text-[6vw] text-right"
+          style={{
+            textShadow: '0 0 20px rgba(0,0,0,0.5), 0 0 2px rgba(0,0,0,0.2)'
+          }}
+        >
           {format(date, 'EEEE, LLLL d')}
         </div>
       </div>
